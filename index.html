@@ -16,25 +16,36 @@
             }
             h1   {
                 font-family: 'Franklin Gothic Medium'; 
-                border:1mm outset rgb(118, 171, 174); 
-                border-radius: 3mm;
+                border:3px outset rgb(118, 171, 174); 
+                border-radius: 10px;
+                width: 1500px;
+                margin-bottom: 40px;
             }
             .defdiv {
-                border: 1mm dashed rgb(118, 171, 174); 
-                border-radius: 3mm; 
-                padding-bottom: 2%; 
-                padding-top: 1%;
-                margin: 5%;
-                margin-top: 1%;
-                margin-bottom: 1%;
+                border: 3px dashed rgb(118, 171, 174); 
+                border-radius: 10px; 
+                padding-bottom: 50px;
+                padding-top: 15px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                width: 1500px;
+                display: block;
             }
-            .link {color: rgb(118, 171, 174); font-size: larger;}
-            dd {padding-right: 10%;}
+            p {
+                font-size: 20px;
+                margin-left: 210px; 
+                margin-right: 210px
+            }
+            h2 {
+                font-size: 24px;
+            }
+            .link {color: rgb(118, 171, 174); font-size: 23px;}
+            dd {padding-right: 40px; font-size: 15px;}
         </style>
     </head>
-    <body>
-            <center><h1 style="max-width: 90%;">Личный сайт Куки</h1></center>
-            <div class="defdiv" style="max-width:20%; float: inline-start; margin-left: 5%; margin-top: 0%; margin-right: 0%;">
+    <center><body>
+            <h1>Личный сайт Куки</h1>
+            <div class="defdiv" style="width:370px; display: inline-block; margin: auto; margin-right: 20px;">
                 <h2>Ссылки:</h2>
                 <a href="https://t.me/cherti667" target="_blank" class="link">Телеграмм</a><br>
                 <dd>- Здесь публикуются посты на тему личной жизни, различные арты и музыка</dd>
@@ -46,9 +57,9 @@
                 <dd">- Тут находяится всё моё письменное творчество</dd>
             </div>
             <!--<img src="./images/icon.jpg" alt="W3Schools.com" width="104" height="142">-->
-            <div class="defdiv" style="max-width:68.5%; float: inline-end; margin-right: 5%; margin-top: 0%; margin-left: 0%;">
+            <div class="defdiv" style="width:1090px; display: inline-block; margin: auto;">
                 <h2>Краткая информация:</h2>
-                <p style="font-size: larger; margin: 1%;">
+                <p style="font-size: larger; margin: 21px;">
                     Привет! Меня зовут Куки, я музыкант, программист, художник, писатель, стример и фотограф. Называю себя "скромно" талантом в шутку, 
                     однако искренне надеюсь, что однажды эта шутка превратиться в правду. Если интересно можете почитать поподробнее про все аспекты моего творчества:
                 </p>
@@ -57,9 +68,9 @@
                 <a href="#Art" class="link">Рисование</a><br>
                 <a href="#Writer" class="link">Писательство</a><br>
             </div>
-            <div id="Music" class="defdiv" style="margin-top: 19%;">
+            <div id="Music" class="defdiv">
                 <h2>Музыка</h2>
-                <p style="font-size: larger; margin-left: 10%; margin-right: 10%;">
+                <p>
                     Увлекаться музыкой начал примерно в начале 2023 года. Тогда я переезжал в новую квартиру и во время переезда нашёл старую 
                     поломанную гитару сестры, через некоторое время мы с дядей починили её - так и началось моё путешествие в мир музыки. Снача я конечно не умел играть, 
                     баррэ мне снилось в кошмарах, а моё пение снилось в кошмарах другим. Через какое-то время я понял, что хочу делать собственную музыку, попросил на день 
@@ -69,7 +80,7 @@
             </div>
             <div id="Programmer" class="defdiv">
                 <h2>Программирование</h2>
-                <p style="font-size: larger; margin-left: 10%; margin-right: 10%">
+                <p>
                     Программирование, как говорит мой отец, чисто прикладной навык, однако я с ним категорически не согласен, поскольку оно всё таки заставляет иногда подумать. 
                     Я умею программировать на 3 языках: Python, C#, lua - В момент создания этого сайта мне также пришлось изучить HTML(CSS), не уверен что это язык 
                     программирования, однако что-то близкое к нему это точно. Теперь отдельно про все языки:
@@ -96,14 +107,14 @@
             </div>
             <div id="Art" class="defdiv">
                 <h2>Рисование</h2>
-                <p style="font-size: larger; margin-left: 10%; margin-right: 10%">
+                <p>
                     На самом деле тут говорить особо нечего, рисую я совсем немного и чаще всего для превьюшек к видосам на ютубе. Со всеми работами можете ознакомится 
                     у меня в телеграмм канале
                 </p>
             </div>
             <div id="Writer" class="defdiv">
                 <h2>Писательство</h2>
-                <p style="font-size: larger; margin-left: 10%; margin-right: 10%">
+                <p>
                     Пишу я с 2021 года, однако на фикбук я начал выкладывать свои работы лишь в 2022 году. Я не могу назвать себя каки-то гениальным и навероятным поэтом и 
                     писателем, однако чему-то всё таки я научился. Пишу не часто, поскольку тщательно отбираю идеи для фанфиков, обычно пишу их в формате набольших 
                     рассказов(самые большие обычно не превышают пары тройки страниц в размере). Моя самая любимая работа это 
@@ -116,10 +127,10 @@
             </div>
             <div id="Streamer" class="defdiv">
                 <h2>Стримерство</h2>
-                <p style="font-size: larger; margin-left: 10%; margin-right: 10%;">
+                <p>
                     Стримлю я с конца 2023 года, часто меняю тематику стримов, поэтому если вам не понравится стрим - просто дождитесь следующего! Возможно, он будет отличаться 
                     от предыдущего
-                    <br><iframe src="https://player.twitch.tv/?channel=kuki1946&parent=www.github.com/kuki2008/kuki.ru" frameborder="0" allowfullscreen="true" scrolling="no" height="3%" width="40%"></iframe>
+                    <br><iframe src="https://player.twitch.tv/?channel=kuki1946&parent=kuki2008.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="3%" width="40%"></iframe>
                 </p>
             </div>
             <!--<script>
@@ -141,5 +152,5 @@
                 }
                 showSlide(currentSlide);
             </script>-->
-    </body>
+    </body></center>
 </html>
