@@ -1,1 +1,1 @@
-# kuki.ru
+# just my cool site
