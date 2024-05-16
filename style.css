@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(34, 40, 49); 
+    color: rgb(238, 238, 238); 
+    margin: auto; 
+    text-align: center;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium'; 
+    border: 3px outset rgb(118, 171, 174); 
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.content-wrapper {
+    display: flex;
+}
+.defdiv {
+    border: 3px dashed rgb(118, 171, 174); 
+    border-radius: 10px; 
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.linkes {
+    border: 3px dashed rgb(118, 171, 174); 
+    border-radius: 10px; 
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 20px
+}
+
+.info {
+    border: 3px dashed rgb(118, 171, 174); 
+    border-radius: 10px; 
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 19px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.infop {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.link {
+    color: rgb(118, 171, 174); 
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+dd {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size:15px;
+}
+
+@media screen and (max-width: 1920px) {
+    h1 {
+        width: 78%;
+    }
+    .defdiv {
+        width: 78%;
+        display: block;
+    }
+    .linkes {
+        width: 21%;
+        margin-left: 11%;
+    }
+    .info {
+        width: 56%;
+        margin-right: 11%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        width: 80%;
+    }
+    .defdiv {
+        width: 80%;
+        display: block;
+    }
+    .linkes {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .info {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .content-wrapper {
+        display: block;
+    }
+}

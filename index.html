@@ -3,71 +3,38 @@
     <head>
         <meta name="keywords" content="Куки, Kuki, kuki2008, kuki1945, kuki1941, kuki, куки">
         <meta name="description" content="Сайт великого и неповторимого Куки или Kuki - Таланта, крутого перца и абсалюта">
-        <meta name="viewport" content="width=device-1920, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>Сайт таланта</title>
         <link rel="icon" type="image/x-icon" href="images/icon.jpg">
-        <style>
-            body {
-                background-color:rgb(34, 40, 49); 
-                color:rgb(238, 238, 238); 
-                margin: auto; 
-                text-align: center;
-                height: auto;
-            }
-            h1   {
-                font-family: 'Franklin Gothic Medium'; 
-                border:3px outset rgb(118, 171, 174); 
-                border-radius: 10px;
-                width: 1500px;
-                margin-bottom: 40px;
-            }
-            .defdiv {
-                border: 3px dashed rgb(118, 171, 174); 
-                border-radius: 10px; 
-                padding-bottom: 50px;
-                padding-top: 15px;
-                margin-top: 15px;
-                margin-bottom: 15px;
-                width: 1500px;
-                display: block;
-            }
-            p {
-                font-size: 19px;
-                margin-left: 210px; 
-                margin-right: 210px
-            }
-            h2 {
-                font-size: 24px;
-            }
-            .link {color: rgb(118, 171, 174); font-size: 22px;}
-            dd {padding-right: 40px; font-size: 15px;}
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <center><body>
             <h1>Личный сайт Куки</h1>
-            <div class="defdiv" style="width:370px; display: inline-block; vertical-align: middle; margin: auto; margin-right: 20px; margin-bottom: 15px;">
-                <h2>Ссылки:</h2>
-                <a href="https://t.me/cherti667" target="_blank" class="link">Телеграмм</a><br>
-                <dd>- Здесь публикуются посты на тему личной жизни, различные арты и музыка</dd>
-                <a href="https://www.twitch.tv/kuki1946" target="_blank" class="link">Твич</a><br>
-                <dd>- Здесь я провожу стримы</dd>
-                <a href="https://www.youtube.com/@kuki1940" target="_blank" class="link">Ютуб</a><br>
-                <dd>- Здесь публикуются длинные видео</dd>
-                <a href="https://ficbook.net/authors/7854359" target="_blank" class="link">Фикбук</a><br>
-                <dd">- Тут находяится всё моё письменное творчество</dd>
-            </div>
-            <!--<img src="./images/icon.jpg" alt="W3Schools.com" width="104" height="142">-->
-            <div class="defdiv" style="width:1090px; display: inline-block; vertical-align: middle; margin: auto; margin-bottom: 15px;">
-                <h2>Краткая информация:</h2>
-                <p style="font-size: 19px; margin: 20px;">
-                    Привет! Меня зовут Куки, я музыкант, программист, художник, писатель, стример и фотограф. Называю себя "скромно" талантом в шутку, 
-                    однако искренне надеюсь, что однажды эта шутка превратиться в правду. Если интересно можете почитать поподробнее про все аспекты моего творчества:
-                </p>
-                <a href="#Music" class="link">Музыка</a><br>
-                <a href="#Programmer" class="link">Программирование</a><br>
-                <a href="#Art" class="link">Рисование</a><br>
-                <a href="#Writer" class="link">Писательство</a><br>
+            <div class="content-wrapper">
+                <div class="linkes">
+                    <h2>Ссылки:</h2>
+                    <a href="https://t.me/cherti667" target="_blank" class="link">Телеграмм</a><br>
+                    <dd>- Здесь публикуются посты на тему личной жизни, различные арты и музыка</dd>
+                    <a href="https://www.twitch.tv/kuki1946" target="_blank" class="link">Твич</a><br>
+                    <dd>- Здесь я провожу стримы</dd>
+                    <a href="https://www.youtube.com/@kuki1940" target="_blank" class="link">Ютуб</a><br>
+                    <dd>- Здесь публикуются длинные видео</dd>
+                    <a href="https://ficbook.net/authors/7854359" target="_blank" class="link">Фикбук</a><br>
+                    <dd>- Тут находяится всё моё письменное творчество</dd>
+                </div>
+                <!--<img src="./images/icon.jpg" alt="W3Schools.com" width="104" height="142">-->
+                <div class="info">
+                    <h2>Краткая информация:</h2>
+                    <p>
+                        Привет! Меня зовут Куки, я музыкант, программист, художник, писатель, стример и фотограф. Называю себя "скромно" талантом в шутку, 
+                        однако искренне надеюсь, что однажды эта шутка превратиться в правду. Если интересно можете почитать поподробнее про все аспекты моего творчества:
+                    </p>
+                    <a href="#Music" class="link">Музыка</a><br>
+                    <a href="#Programmer" class="link">Программирование</a><br>
+                    <a href="#Art" class="link">Рисование</a><br>
+                    <a href="#Writer" class="link">Писательство</a><br>
+                </div>
             </div>
             <div id="Music" class="defdiv">
                 <h2>Музыка</h2>
@@ -89,8 +56,7 @@
                     от СУНЦ МГУ за 8 класс, после чего я им почти не пользовался(время от времени пытаюсь написать на нём свой ИИ, однако это слишком сложно для меня)
                     <br><br>C# - я очень вдохновился различными видео про разработку игр(как бы абсурдно это не звучало) и решил, что хочу также, 
                     записался на бесплатный курс от МШП, прошёл первый год обучения(на второй не пошёл), сначала мне было весело, а потом, когда по окончании курса я 
-                    решил написать что-то своё я столкнулся с горой различных трудностей и в итоге забросил это дело(однако при желании в любой момент могу вернуться&#128579)
-                    но на деле оказалось, что за весь год на этом курсе меня научили делать игры лишь в 2д и объяснили какие-то основы 3д
+                    решил написать что-то своё я столкнулся с горой различных трудностей и в итоге забросил это дело(однако при желании в любой момент могу вернуться&#128579) 
                     <br><br>Lua - этот язык я изучал уже самостоятельно, на нём я делал большую часть своих проектов с командой 
                     <a href="https://discord.com/invite/qrYh3AAwvQ" target="_blank" class="link">Uni team projects</a>, состоящей из меня и двух моих друзей: Анонима и Тараса.
                     До сих пор делаю на lua игры в роблоксе:
